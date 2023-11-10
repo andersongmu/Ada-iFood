@@ -1,7 +1,7 @@
 // ---------------------Desafio 7--------------------------- //
 // Verificação de Números Pares e Ímpares
 
-const numero = parseInt(prompt("Digite um número: "));
+const numero = Number(prompt("Digite um número: "));
 
 switch (numero % 2) {
     case 0:
