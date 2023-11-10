@@ -1,7 +1,7 @@
 // ----------------------Desafio 1-------------------------- //
 // Verificação de Números Pares e Ímpares (If e Ternário)
 
-const numero = Number(prompt("Digite um número:"));
+const numero = Number(prompt("Digite um número: "));
 
 const parOuImpar = (numero % 2 === 0) ? 'É par' : 'É ímpar';
 console.log('Ternario | ' + parOuImpar);
@@ -20,12 +20,12 @@ if (numero % 2 === 0) {
 const nota = Number(prompt("Digite a nota: "))
 
 if (nota >= 90) {
-    console.log("Aprovado")
+    console.log("Aprovado");
 } else if (nota >= 70) {
-    console.log("Aprovado com mérito")
+    console.log("Aprovado com mérito");
 }
 else {
-    console.log("Reprovado")
+    console.log("Reprovado");
 }
 
 
