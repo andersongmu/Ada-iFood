@@ -160,6 +160,6 @@ if (
     }
     
     console.log(`Tentativa ${i + 1}: Rolagens individuais: ${rolagens.join(', ')}`);
-    console.log(`Soma total: ${soma}\n`);
+    console.log(`Soma total: ${soma}`);
   }
 }
